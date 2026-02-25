@@ -1,0 +1,64 @@
+[versions]
+agp = "8.7.3"
+coreKtxVersion = "1.17.0"
+appcompatVersion = "1.7.1"
+kotlin = "2.0.21"
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+lifecycle = "2.7.0"
+materialVersion = "1.13.0"
+navigation = "2.7.6"
+room = "2.6.1"
+coroutines = "1.7.3"
+mpandroidchart = "v3.1.0"
+junit = "4.13.2"
+mockito = "5.3.1"
+extJunit = "1.2.1"
+espresso = "3.6.1"
+ksp = "2.0.21-1.0.27"
+media3CommonKtx = "1.9.0"
+
+[libraries]
+# Android Core
+appcompat-v171 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+core-ktx-v1170 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# Lifecycle & ViewModel
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+
+# Navigation
+material-v1130 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+
+# Room Database
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Coroutines
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+
+# MPAndroidChart
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "extJunit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version.ref = "media3CommonKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

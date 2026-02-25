@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/item_workout_exercise.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_workout_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_workout_summary.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_workout_summary.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_stats.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_exercises.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_exercises.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/dialog_add_exercise.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_add_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_active_workout.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_active_workout.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_profile.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/item_exercise.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_home.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/fragment_workout.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_workout.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/item_exercise_picker.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_exercise_picker.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/dialog_exercise_details.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_exercise_details.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/item_summary_exercise.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_summary_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-mergeDebugResources-53:/layout/dialog_exercise_picker.xml",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_exercise_picker.xml"
+    }
+]

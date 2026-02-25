@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_play_arrow.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_play_arrow.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_dialog_exercise_picker.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_exercise_picker.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_profile.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_edit.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_home.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_activity_main.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_circle_background_cardio.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/circle_background_cardio.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_fitness_center.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_fitness_center.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_workout.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_workout.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_exercises.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_exercises.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_dialog_exercise_details.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_exercise_details.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_bg_difficulty_beginner.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/bg_difficulty_beginner.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_add.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_person.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_workout_summary.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_workout_summary.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_item_summary_exercise.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_summary_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_item_workout_exercise.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_workout_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_bg_difficulty_intermediate.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/bg_difficulty_intermediate.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_item_exercise.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_delete.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_favorite_border.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_favorite_border.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_favorite.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_circle_background_strength.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/circle_background_strength.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_icone.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/icone.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/xml_backup_rules.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_home.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_gradient_welcome_card.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/gradient_welcome_card.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_circle_background_primary.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/circle_background_primary.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_stats.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_item_exercise_picker.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/item_exercise_picker.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_dialog_add_exercise.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/dialog_add_exercise.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_bg_difficulty_advanced.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/bg_difficulty_advanced.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_timer.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_timer.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_search.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_bottom_nav_color_selector.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/bottom_nav_color_selector.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_check.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/navigation_nav_graph.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_ic_bar_chart.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/ic_bar_chart.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable_chip_background_selector.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/drawable/chip_background_selector.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/layout_fragment_active_workout.xml.flat",
+        "source": "com.soukouboy.gorillaworkout.app-main-56:/layout/fragment_active_workout.xml"
+    },
+    {
+        "merged": "com.soukouboy.gorillaworkout.app-debug-54:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.soukouboy.gorillaworkout.app-pngs-50:/drawable-xhdpi/ic_launcher_foreground.png"
+    }
+]

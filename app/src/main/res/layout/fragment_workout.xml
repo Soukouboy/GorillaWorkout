@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Workout Name Input -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/card_padding">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/workout_name_hint">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/workout_name_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_size_body" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Exercises Section -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_padding"
+                android:text="Exercices sélectionnés"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/selected_exercises_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:padding="@dimen/margin_small" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_exercises_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/margin_medium"
+                android:text="Ajouter des exercices"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_size_body"
+                app:cornerRadius="@dimen/button_corner_radius"
+                app:icon="@drawable/ic_add"
+                app:iconGravity="textStart"
+                app:iconPadding="@dimen/margin_small"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="1dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Workout Summary -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exercise_count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 exercices"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/estimated_duration_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durée: 0min"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save_template_button"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="@string/workout_save_template"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_body"
+            app:cornerRadius="@dimen/button_corner_radius"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/start_workout_button"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="@string/workout_start_now"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_body"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="@dimen/button_corner_radius"
+            app:icon="@drawable/ic_play_arrow"
+            app:iconGravity="textStart"
+            app:iconPadding="@dimen/margin_small" />
+
+    </LinearLayout>
+
+</LinearLayout>

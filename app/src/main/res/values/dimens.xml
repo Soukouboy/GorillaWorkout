@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins and Paddings -->
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    
+    <!-- Card dimensions -->
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="text_size_title">28sp</dimen>
+    <dimen name="text_size_subtitle">24sp</dimen>
+    <dimen name="text_size_heading">18sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+    
+    <!-- Button dimensions -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_corner_radius">24dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+    
+    <!-- Icon sizes -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+    
+    <!-- Profile photo -->
+    <dimen name="profile_photo_size">100dp</dimen>
+    
+    <!-- Progress bar -->
+    <dimen name="progress_bar_height">8dp</dimen>
+    
+    <!-- Bottom navigation -->
+    <dimen name="bottom_nav_height">56dp</dimen>
+    
+    <!-- FAB -->
+    <dimen name="fab_size">56dp</dimen>
+    
+    <!-- Chip -->
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_padding_horizontal">12dp</dimen>
+
+
+</resources>

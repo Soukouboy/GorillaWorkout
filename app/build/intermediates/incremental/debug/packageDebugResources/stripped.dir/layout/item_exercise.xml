@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_small"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+
+        <!-- Category Icon -->
+        <ImageView
+            android:id="@+id/category_icon"
+            android:layout_width="@dimen/icon_size_large"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/circle_background_primary"
+            android:padding="@dimen/margin_small"
+            android:src="@drawable/ic_fitness_center"
+            app:tint="@android:color/white" />
+
+        <!-- Exercise Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exercise_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom de l'exercice"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/muscle_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:text="Groupe musculaire"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_small" />
+
+            <!-- Difficulty Badge -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/difficulty_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:text="Débutant"
+                android:textSize="@dimen/text_size_caption"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/text_hint"
+                app:chipStrokeWidth="1dp" />
+
+        </LinearLayout>
+
+        <!-- Favorite Button -->
+        <ImageButton
+            android:id="@+id/favorite_button"
+            android:layout_width="@dimen/icon_size_medium"
+            android:layout_height="@dimen/icon_size_medium"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_favorite_border"
+            app:tint="@color/text_hint" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

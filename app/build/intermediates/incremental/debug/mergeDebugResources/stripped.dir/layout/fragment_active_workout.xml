@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header with Timer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_large">
+
+        <TextView
+            android:id="@+id/global_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:text="Temps total"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+
+    <!-- Progress Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0%"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:id="@+id/exercise_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exercice 1 sur 5"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_bar_height"
+            android:layout_marginTop="@dimen/margin_small"
+            android:progress="0"
+            android:progressTint="@color/primary" />
+
+    </LinearLayout>
+
+    <!-- Current Exercise Info -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_medium"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_large">
+
+            <TextView
+                android:id="@+id/current_exercise_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pompes"
+                android:textAlignment="center"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_subtitle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/current_muscle_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Pectoraux, Triceps"
+                android:textAlignment="center"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:id="@+id/current_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="Série 1 sur 3"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/target_reps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="12 répétitions"
+                android:textAlignment="center"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:id="@+id/weight_used"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Poids: 0 kg"
+                android:textAlignment="center"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_body" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Rest Timer -->
+    <LinearLayout
+        android:id="@+id/rest_timer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temps de repos"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/rest_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="01:00"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/skip_rest_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passer"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/button_corner_radius"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_rest_time_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:text="+15s"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/button_corner_radius"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="1dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pause_button"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="Pause"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/button_corner_radius"
+            app:strokeColor="@color/warning"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/complete_set_button"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="Série complétée"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="@dimen/button_corner_radius"
+            app:icon="@drawable/ic_check"
+            app:iconGravity="textStart" />
+
+    </LinearLayout>
+
+</LinearLayout>

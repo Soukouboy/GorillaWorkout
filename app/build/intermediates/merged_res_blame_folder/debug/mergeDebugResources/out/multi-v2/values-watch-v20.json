@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.soukouboy.gorillaworkout.app-mergeDebugResources-52:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Soukouboy\\.gradle\\caches\\8.9\\transforms\\b5075a1652bd06954df769a96d3706fa\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

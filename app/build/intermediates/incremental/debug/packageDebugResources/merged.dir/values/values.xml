@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFE66D</color>
+    <color name="background">#F7F7F7</color>
+    <color name="balance">#FF9800</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_item_active">@color/primary</color>
+    <color name="bottom_nav_item_inactive">#666666</color>
+    <color name="calories_color">#FF5722</color>
+    <color name="cardio">#2196F3</color>
+    <color name="difficulty_advanced_text">#F44336</color>
+    <color name="difficulty_beginner_text">#4CAF50</color>
+    <color name="difficulty_intermediate_text">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="flexibility">#9C27B0</color>
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E85A2A</color>
+    <color name="primary_light">#FF8C61</color>
+    <color name="secondary">#4ECDC4</color>
+    <color name="secondary_dark">#3DB3AB</color>
+    <color name="secondary_light">#7FE0D9</color>
+    <color name="sports">#4CAF50</color>
+    <color name="strength">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="text_hint">#999999</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="warning">#FFC107</color>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="button_corner_radius">24dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_padding_horizontal">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="profile_photo_size">100dp</dimen>
+    <dimen name="progress_bar_height">8dp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_heading">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_subtitle">24sp</dimen>
+    <dimen name="text_size_title">28sp</dimen>
+    <string name="active_workout_add_time">+15s</string>
+    <string name="active_workout_complete_set">Série complétée</string>
+    <string name="active_workout_exercise">Exercice %d sur %d</string>
+    <string name="active_workout_finish">Terminer</string>
+    <string name="active_workout_next_exercise">Exercice suivant</string>
+    <string name="active_workout_pause">Pause</string>
+    <string name="active_workout_reps">%d répétitions</string>
+    <string name="active_workout_rest_timer">Repos: %02d:(%02d)</string>
+    <string name="active_workout_resume">Reprendre</string>
+    <string name="active_workout_set">Série %1d sur %2d</string>
+    <string name="active_workout_skip_rest">Passer</string>
+    <string name="active_workout_title">Entraînement en cours</string>
+    <string name="active_workout_weight">%s kg</string>
+    <string name="app_name">Gorilla Workout</string>
+    <string name="calories_format">%d kcal</string>
+    <string name="confirm_delete_exercise">Êtes-vous sûr de vouloir supprimer cet exercice ?</string>
+    <string name="confirm_delete_title">Confirmer la suppression</string>
+    <string name="confirm_no">Non</string>
+    <string name="confirm_reset_all">Cette action supprimera TOUTES vos données (entraînements, exercices, profil). Cette action est irréversible.</string>
+    <string name="confirm_reset_exercises">Cela supprimera tous vos exercices personnalisés et restaurera les exercices par défaut.</string>
+    <string name="confirm_yes">Oui</string>
+    <string name="dialog_add_exercise_title">Ajouter un exercice</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_delete">Supprimer</string>
+    <string name="dialog_exercise_category">Catégorie</string>
+    <string name="dialog_exercise_description">Description</string>
+    <string name="dialog_exercise_difficulty">Niveau de difficulté</string>
+    <string name="dialog_exercise_equipment">Équipement nécessaire</string>
+    <string name="dialog_exercise_muscle_group">Groupe musculaire</string>
+    <string name="dialog_exercise_name">Nom de l\'exercice</string>
+    <string name="dialog_save">Enregistrer</string>
+    <string name="difficulty_advanced">Avancé</string>
+    <string name="difficulty_beginner">Débutant</string>
+    <string name="difficulty_intermediate">Intermédiaire</string>
+    <string name="error_invalid_age">Âge invalide</string>
+    <string name="error_invalid_height">Taille invalide</string>
+    <string name="error_invalid_weight">Poids invalide</string>
+    <string name="error_no_exercises">Ajoutez au moins un exercice</string>
+    <string name="error_required_field">Ce champ est obligatoire</string>
+    <string name="error_workout_name_required">Le nom de l\'entraînement est requis</string>
+    <string name="exercises_add_new">Ajouter un exercice</string>
+    <string name="exercises_count_format">%d exercices</string>
+    <string name="exercises_empty_message">Essayez de modifier vos filtres ou ajoutez un nouvel exercice</string>
+    <string name="exercises_filter_all">Tous</string>
+    <string name="exercises_filter_balance">Équilibre</string>
+    <string name="exercises_filter_cardio">Cardio</string>
+    <string name="exercises_filter_flexibility">Flexibilité</string>
+    <string name="exercises_filter_sports">Sports</string>
+    <string name="exercises_filter_strength">Musculation</string>
+    <string name="exercises_no_results">Aucun exercice trouvé</string>
+    <string name="exercises_search_hint">Rechercher un exercice...</string>
+    <string name="exercises_title">Bibliothèque d\'exercices</string>
+    <string name="gender_female">Femme</string>
+    <string name="gender_male">Homme</string>
+    <string name="gender_other">Autre</string>
+    <string name="goal_build_muscle">Prendre du muscle</string>
+    <string name="goal_flexibility">Flexibilité</string>
+    <string name="goal_gain_strength">Gagner en force</string>
+    <string name="goal_general_fitness">Forme générale</string>
+    <string name="goal_improve_endurance">Améliorer l\'endurance</string>
+    <string name="goal_lose_weight">Perdre du poids</string>
+    <string name="home_last_workout">Dernier entraînement</string>
+    <string name="home_no_last_workout">Aucun entraînement récent</string>
+    <string name="home_start_workout">Démarrer un entraînement</string>
+    <string name="home_welcome_message">Prêt pour une nouvelle séance ?</string>
+    <string name="home_welcome_title">Bienvenue</string>
+    <string name="nav_exercises">Exercices</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_stats">Statistiques</string>
+    <string name="nav_workout">Entraînement</string>
+    <string name="profile_age">Âge</string>
+    <string name="profile_data_management">Gestion des données</string>
+    <string name="profile_default_rest">Durée de repos par défaut</string>
+    <string name="profile_experience_level">Niveau d\'expérience</string>
+    <string name="profile_export_data">Exporter mes données</string>
+    <string name="profile_fitness_goals">Objectifs fitness</string>
+    <string name="profile_gender">Genre</string>
+    <string name="profile_height">Taille</string>
+    <string name="profile_main_goal">Objectif principal</string>
+    <string name="profile_name">Nom</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_personal_info">Informations personnelles</string>
+    <string name="profile_preferences">Préférences</string>
+    <string name="profile_reset_all">Réinitialiser l\'application</string>
+    <string name="profile_reset_exercises">Restaurer exercices par défaut</string>
+    <string name="profile_save">Enregistrer</string>
+    <string name="profile_title">Profil</string>
+    <string name="profile_units">Unités de mesure</string>
+    <string name="profile_weekly_goal">Séances par semaine</string>
+    <string name="profile_weight">Poids</string>
+    <string name="stats_category_distribution">Répartition par catégorie</string>
+    <string name="stats_current_streak">Jours consécutifs</string>
+    <string name="stats_personal_records">Records personnels</string>
+    <string name="stats_recent_history">Historique récent</string>
+    <string name="stats_total_calories">Calories totales</string>
+    <string name="stats_total_time">Temps total</string>
+    <string name="stats_total_workouts">Total entraînements</string>
+    <string name="stats_weekly_activity">Activité hebdomadaire</string>
+    <string name="stats_weekly_calories">Calories brûlées</string>
+    <string name="stats_weekly_time">Temps total</string>
+    <string name="stats_weekly_workouts">Séances cette semaine</string>
+    <string name="success_data_reset">Données réinitialisées</string>
+    <string name="success_exercise_added">Exercice ajouté avec succès</string>
+    <string name="success_exercise_deleted">Exercice supprimé</string>
+    <string name="success_exercise_updated">Exercice modifié avec succès</string>
+    <string name="success_profile_saved">Profil sauvegardé</string>
+    <string name="success_workout_saved">Entraînement sauvegardé</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_hours">h</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_min">min</string>
+    <string name="unit_sec">s</string>
+    <string name="workout_add_exercises">Ajouter des exercices</string>
+    <string name="workout_exercise_count">%1d exercices</string>
+    <string name="workout_name_hint">Nom de la séance</string>
+    <string name="workout_save_template">Enregistrer comme modèle</string>
+    <string name="workout_start_now">Démarrer maintenant</string>
+    <string name="workout_summary_calories">Calories brûlées</string>
+    <string name="workout_summary_duration">Durée totale</string>
+    <string name="workout_summary_exercises">Exercices complétés</string>
+    <string name="workout_summary_message">Séance terminée avec succès</string>
+    <string name="workout_summary_notes">Notes (optionnel)</string>
+    <string name="workout_summary_repeat">Refaire</string>
+    <string name="workout_summary_save">Sauvegarder</string>
+    <string name="workout_summary_sets">Séries totales</string>
+    <string name="workout_summary_title">Félicitations !</string>
+    <string name="workout_title">Créer un entraînement</string>
+    <string name="workout_total_duration">Durée estimée: %s</string>
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Chip.Filter" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@drawable/chip_background_selector</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Text.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Text.Body.Secondary" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="Text.Heading" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">@dimen/text_size_heading</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Text.Subtitle" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Text.Title" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Theme.GorillaWorkout" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        
+        
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        
+
+        
+        
+
+        
+        
+
+    </style>
+    <style name="Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+    </style>
+    <style name="Widget" parent="Widget.Material3.Button">
+        
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+    <style name="Widget.GorillaWorkout">
+        
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Widget.GorillaWorkout.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/bottom_nav_background</item>
+        <item name="itemIconTint">@drawable/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_color_selector</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="Widget.GorillaWorkout.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/background</item>
+    </style>
+    <style name="Widget.GorillaWorkout.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="Widget.GorillaWorkout.CardView">
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+    <style name="Widget.GorillaWorkout.FloatingActionButton">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@android:color/white</item>
+        <item name="elevation">6dp</item>
+    </style>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- === FRAGMENTS PRINCIPAUX === -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_workout"
+            app:destination="@id/workoutFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.exercises.ExercisesFragment"
+        tools:layout="@layout/fragment_exercises"/>
+
+    <fragment
+        android:id="@+id/workoutFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.workout.WorkoutFragment"
+        tools:layout="@layout/fragment_workout">
+        <action
+            android:id="@+id/action_workout_to_exercisePicker"
+            app:destination="@id/exercisePickerDialog"/>
+        <action
+            android:id="@+id/action_workout_to_active"
+            app:destination="@id/activeWorkoutFragment">
+            <argument
+                android:name="workoutId"
+                app:argType="integer"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/activeWorkoutFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.workout.ActiveWorkoutFragment"
+        tools:layout="@layout/fragment_active_workout">
+        <argument
+            android:name="workoutId"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/action_active_to_summary"
+            app:destination="@id/workoutSummaryFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/workoutSummaryFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.workout.WorkoutSummaryFragment"
+        tools:layout="@layout/fragment_workout_summary">
+        <argument
+            android:name="workoutId"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/action_summary_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.stats.StatsFragment"
+        tools:layout="@layout/fragment_stats"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.soukouboy.gorillaworkout.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+
+    <!-- === DIALOGS === -->
+    <dialog
+        android:id="@+id/exercisePickerDialog"
+        android:name="com.soukouboy.gorillaworkout.ui.dialog.ExercisePickerDialog"
+        tools:layout="@layout/dialog_exercise_picker"/>
+
+    <dialog
+        android:id="@+id/addExerciseDialog"
+        android:name="com.soukouboy.gorillaworkout.ui.dialog.AddExerciseDialog"
+        tools:layout="@layout/dialog_add_exercise"/>
+</navigation>

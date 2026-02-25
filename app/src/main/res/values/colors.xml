@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E85A2A</color>
+    <color name="primary_light">#FF8C61</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#4ECDC4</color>
+    <color name="secondary_dark">#3DB3AB</color>
+    <color name="secondary_light">#7FE0D9</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FFE66D</color>
+    
+    <!-- Background and Surface -->
+    <color name="background">#F7F7F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    
+    <!-- Category Colors -->
+    <color name="strength">#F44336</color>
+    <color name="cardio">#2196F3</color>
+    <color name="flexibility">#9C27B0</color>
+    <color name="balance">#FF9800</color>
+    <color name="sports">#4CAF50</color>
+
+    <!-- Couleurs de difficulté (texte) -->
+    <color name="difficulty_beginner_text">#4CAF50</color>
+    <color name="difficulty_intermediate_text">#FF9800</color>
+    <color name="difficulty_advanced_text">#F44336</color>
+    <color name="calories_color">#FF5722</color>
+
+    <!-- Navigation -->
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_item_active">@color/primary</color>
+    <color name="bottom_nav_item_inactive">#666666</color>
+
+
+
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Search Bar -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_medium">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_medium"
+                android:layout_height="@dimen/icon_size_medium"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/active_workout_exercise"
+                android:src="@drawable/ic_search"
+
+                />
+
+            <EditText
+                android:id="@+id/search_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="@string/exercises_search_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:paddingStart="@dimen/margin_medium"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Category Filter Chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/category_chip_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            app:checkedChip="@+id/chip_all"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_all"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_all"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_strength"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_strength"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_cardio"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_cardio"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_flexibility"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_flexibility"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_balance"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_balance"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_sports"
+                style="@style/Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/chip_height"
+                android:text="@string/exercises_filter_sports"
+                android:textSize="@dimen/text_size_small" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+
+    <!-- RecyclerView for Exercises -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/exercises_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="@dimen/margin_medium" />
+
+    <!-- Empty State -->
+    <LinearLayout
+        android:id="@+id/empty_state_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_xlarge"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size_xlarge"
+            android:layout_height="@dimen/icon_size_xlarge"
+            android:alpha="0.5"
+            android:src="@drawable/ic_search"
+            app:tint="@color/text_hint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/exercises_no_results"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_size_heading"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/exercises_empty_message"
+            android:textAlignment="center"
+            android:textColor="@color/text_hint"
+            android:textSize="@dimen/text_size_body" />
+
+    </LinearLayout>
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_exercise_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/margin_medium"
+        android:contentDescription="@string/exercises_add_new"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/primary"
+        app:tint="@android:color/white" />
+
+</LinearLayout>
